@@ -1,0 +1,20 @@
+:root {
+    --snitap-sun: #FFCD1E;
+    --snitap-sky-mid: #06B6D4;
+    --snitap-sky-light: #67E8F9;
+    --snitap-joy-mid: #DB2777;
+    --snitap-joy-light: #F472B6;
+    --sniptap-leaf-mid: #16A34A;
+
+    --text: #000000;
+    --highlights: #000000;
+    --background: #FAFAFA;
+
+    --ff-syne: "Syne", sans-serif;
+    --heading1: 700 4rem/125% var(--ff-syne);
+    --heading2: 700 2.5rem/120% var(--ff-syne);
+
+    --ff-montserrat: "Montserrat", sans-serif;
+    --button-label: 500 1rem/150% var(--ff-montserrat);
+    --span: 500 0.875rem/150% var(--ff-montserrat);
+}
