@@ -1,3 +1,10 @@
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
 :root {
     --snitap-sun: #FFCD1E;
     --snitap-sky-mid: #06B6D4;
@@ -11,10 +18,22 @@
     --background: #FAFAFA;
 
     --ff-syne: "Syne", sans-serif;
-    --heading1: 700 4rem/125% var(--ff-syne);
-    --heading2: 700 2.5rem/120% var(--ff-syne);
+    --heading1: 700 4rem/1.25 var(--ff-syne);
+    --heading2: 700 2.5rem/1.2 var(--ff-syne);
 
     --ff-montserrat: "Montserrat", sans-serif;
-    --button-label: 500 1rem/150% var(--ff-montserrat);
-    --span: 500 0.875rem/150% var(--ff-montserrat);
+    --button-label: 500 1rem/1.5 var(--ff-montserrat);
+    --span: 500 0.875rem/1.5 var(--ff-montserrat);
+}
+
+html, button {
+    font: var(--button-label)
+}
+
+h1 {
+    font: var(--heading1);
+}
+
+h2 {
+    font: var(--heading2);
 }
