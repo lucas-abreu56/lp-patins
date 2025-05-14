@@ -10,10 +10,10 @@ footer {
 
     & .logo {
         display: flex;
-        align-items:center ;
         gap: .75rem;
 
         font: var(--heading2);
+        font-size: 20px;
         & img {
             width: 2rem;
             transition: rotate 350ms;
