@@ -11,6 +11,7 @@ footer {
     & .logo {
         display: flex;
         gap: .75rem;
+        align-items: center;
 
         font: var(--heading2);
         font-size: 20px;
@@ -27,6 +28,7 @@ footer {
     & nav {
         display: flex;
         gap: 2rem;
+        justify-content: center;
         
         & a {
             width: fit-content;
